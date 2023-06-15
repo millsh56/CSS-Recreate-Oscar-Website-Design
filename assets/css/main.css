@@ -1,0 +1,34 @@
+* {
+    /* outline: 1px solid red; */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    margin: 0 auto;
+}
+
+
+.card-section-header {
+    text-align: center;
+}
+
+
+.main-content-card {
+    /* background: red; */
+    display: flex;
+    margin-top: 50px;
+}
+
+.card-image, .card-content {
+    width: 40vw;
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-image img {
+    width: 100%;
+}
